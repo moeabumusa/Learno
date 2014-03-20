@@ -26,7 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('your-machine-name'),
+	'local' => array('harrenhal-php-95199'),
+  'staging' => array('550404ea-2b06-449b-98d6-50c4f0250a1a'),
 
 ));
 
